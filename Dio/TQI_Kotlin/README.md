@@ -8,7 +8,7 @@ Nesse bootcamp foi apresentado a introdução ao **Docker** e como é o seu func
 
 Foi ensinado quando e como utilizar um container docker e vários comandos utilizados normalmente.
 
-### Comandos efetivos para Docker:
+### Comandos efetivos para Docker
 
 - pull - Baixar imagem
 - ps/ls - listar docker
@@ -76,3 +76,5 @@ Para executar o docker compose, basta ter o docker e docker compose intalado no 
 
 **[Retornar para página anterior](../README.md)**
 <strong> | <a href="#top">Volte para o topo 🔝</a> </strong>
+
+By **[Bruno Medeiros](https://github.com/BrunoMedeiros14)**.
