@@ -2,9 +2,9 @@
 
 Nesse repositório será concentrado todos os projetos de cursos e alguns desafios encontrado na internet, facilitando um acompanhamento da minha evolução.
 
-| Plataforma | Link dos cursos |
-| :--------- | :-------------: |
-| X          |     [x](.)      |
+| Plataforma                  |        Link dos cursos        |
+| :-------------------------- | :---------------------------: |
+| Dio (Digital Inovation One) | [Cursos DIO](./Dio/README.md) |
 
 <p>
 <strong>
