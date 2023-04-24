@@ -72,6 +72,10 @@ Para executar o docker compose, basta ter o docker e docker compose intalado no 
 
     docker compose up
 
+Preview:
+
+[<img width="400px" src="./Desafio%20Docker/Preview.png" />](./Desafio%20Docker/Preview.png 'Print da página criada no Apache')
+
 ---
 
 **[Retornar para página anterior](../README.md)**
