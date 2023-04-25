@@ -101,6 +101,8 @@ Quando se utiliza o método com mesmo nome, mas muda sua assinatura (mudando os 
 
 - **[exemplo](./learn-java/src/edu/brunodemedeiros/exercises/Sobrecarga.java)**
 
+Obs: Para causar sobrecarga tem que mudar os tipos primitivos dos parâmetros (alterando assim sua assinatura).
+
 ---
 
 **[Retornar para página anterior](../README.md)**
