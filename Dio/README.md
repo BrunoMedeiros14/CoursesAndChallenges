@@ -6,4 +6,4 @@
 
 **[Retornar para página anterior](../README.md)**
 
-By **[Bruno Medeiros](https://github.com/BrunoMedeiros14)**.
+<p align="center">By <strong><a href="https://github.com/BrunoMedeiros14">Bruno Medeiros</a></strong>.</p>

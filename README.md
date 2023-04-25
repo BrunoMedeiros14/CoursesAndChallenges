@@ -12,4 +12,4 @@ Nesse repositório será concentrado todos os projetos de cursos e alguns desafi
 </strong>
 </p>
 
-By **[Bruno Medeiros](https://github.com/BrunoMedeiros14)**.
+<p align="center">By <strong><a href="https://github.com/BrunoMedeiros14">Bruno Medeiros</a></strong>.</p>

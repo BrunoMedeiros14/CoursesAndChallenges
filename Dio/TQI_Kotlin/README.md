@@ -108,4 +108,4 @@ Obs: Para causar sobrecarga tem que mudar os tipos primitivos dos parâmetros (a
 **[Retornar para página anterior](../README.md)**
 <strong> | <a href="#top">Volte para o topo 🔝</a> </strong>
 
-By **[Bruno Medeiros](https://github.com/BrunoMedeiros14)**.
+<p align="center">By <strong><a href="https://github.com/BrunoMedeiros14">Bruno Medeiros</a></strong>.</p>
