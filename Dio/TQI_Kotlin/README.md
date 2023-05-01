@@ -78,11 +78,19 @@ Preview:
 
 ---
 
-Java
+## Java
+
+Fato observado é que para usar string sem precisar de concatenar, só usar o printf:
+
+```java
+System.out.printf("\nTexto %.2f\n", variável);
+```
 
 ### Estrutura dos métodos
 
-    ?visibilidade ?tipo ?modificador retorno nome (?parâmetros?) ?exceções corpo
+```bash
+?visibilidade ?tipo ?modificador retorno nome (?parâmetros?) ?exceções corpo
+```
 
 |  #  | Função                       |
 | :-: | :--------------------------- |
@@ -102,6 +110,8 @@ Quando se utiliza o método com mesmo nome, mas muda sua assinatura (mudando os 
 - **[exemplo](./learn-java/src/edu/brunodemedeiros/exercises/Sobrecarga.java)**
 
 Obs: Para causar sobrecarga tem que mudar os tipos primitivos dos parâmetros (alterando assim sua assinatura).
+
+### Listas
 
 ---
 
