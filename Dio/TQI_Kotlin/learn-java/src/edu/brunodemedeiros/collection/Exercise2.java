@@ -16,6 +16,8 @@ Se a pessoa responder positivamente a 2 questões ela deve ser classificada como
 "Cúmplice" e 5 como "Assassina". Caso contrário, ele será classificado como "Inocente".
 */
 public class Exercise2 {
+  static Scanner scan = new Scanner(System.in);
+
   public static void main(String[] args) {
 
     List<Boolean> questions = new ArrayList<>();
@@ -54,10 +56,10 @@ public class Exercise2 {
         System.out.println("Considerado inocente.");
     }
     ;
+    scan.close();
   }
 
   static Boolean getResponse() {
-    Scanner scan = new Scanner(System.in);
     String response = scan.next();
     while (true) {
       if (response.equalsIgnoreCase("s"))
@@ -67,5 +69,6 @@ public class Exercise2 {
       System.out.println("Responda S ou N:");
       response = scan.next();
     }
+
   }
 }
