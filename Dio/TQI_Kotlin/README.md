@@ -113,6 +113,16 @@ Obs: Para causar sobrecarga tem que mudar os tipos primitivos dos parâmetros (a
 
 ### Listas
 
+Para a interface **List** se utiliza **ArrayList** ou **LinkedList**.
+
+- A interface **List** é composta por uma grande manuseabilidade, aceitando até elementos repetidos.
+
+E para a interface **Set** se utiliza **HashSet** que é o mais rápido, porém desordenado, o **LinkedHashSet** que é o segundo mais rápido e mantém a ordem que foi feito e o **TreeSet** que é o mais lento mas ordena todos os itens na ordem natural.
+
+- Lembrando que a interface **Set** não guarda o index dos itens, e não aceita elementos repetidos.
+
+- A interface **Map** tem a mesma finalidade que a interface **Set**, no entanto o **Map** é voltado para armazenar _Objetos_, sendo necessário uma key para todos os objetos armazenados.
+
 ---
 
 **[Retornar para página anterior](../README.md)**
