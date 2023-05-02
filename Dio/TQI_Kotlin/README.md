@@ -123,6 +123,12 @@ E para a interface **Set** se utiliza **HashSet** que é o mais rápido, porém 
 
 - A interface **Map** tem a mesma finalidade que a interface **Set**, no entanto o **Map** é voltado para armazenar _Objetos_, sendo necessário uma key para todos os objetos armazenados.
 
+### Programação funcional
+
+A programação funcional no java é inclementada a partir do método **.stream()**, levando não alterando a lista original na qual ela está trabalhando.
+
+- Dessa forma, sempre que o objetivo for causar um efeito colateral na _Lista_, deve-se utilizar os métodos pertencentes a ela, não sendo possível com o stream.
+
 ---
 
 **[Retornar para página anterior](../README.md)**
