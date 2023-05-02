@@ -1,4 +1,4 @@
-package edu.brunodemedeiros.collection.arrlist;
+package edu.brunodemedeiros.collection.list;
 
 import java.util.ArrayList;
 import java.util.Collections;
