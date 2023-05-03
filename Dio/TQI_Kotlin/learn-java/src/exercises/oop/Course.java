@@ -1,10 +1,10 @@
 package exercises.oop;
 
-public class Courses extends Content {
+public class Course extends Content {
 
   private int workload;
 
-  Courses(String title, String description, int workload) {
+  public Course(String title, String description, int workload) {
     this.title = title;
     this.description = description;
     this.workload = workload;

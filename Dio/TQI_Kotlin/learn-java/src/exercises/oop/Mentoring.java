@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class Mentoring extends Content {
   LocalDate date;
 
-  Mentoring(String title, String description) {
+  public Mentoring(String title, String description) {
     this.title = title;
     this.description = description;
     this.date = LocalDate.now();
