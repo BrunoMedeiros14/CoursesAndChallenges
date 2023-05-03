@@ -129,6 +129,14 @@ A programação funcional no java é inclementada a partir do método **.stream(
 
 - Dessa forma, sempre que o objetivo for causar um efeito colateral na _Lista_, deve-se utilizar os métodos pertencentes a ela, não sendo possível com o stream.
 
+### Desafio Java
+
+No desafio final do módulo de java, para fixar o conhecimento de toda a matéria aprendida durante o curso e também desenvolver o conceito de **POO**, foi proposto a criação de um programa que com a abstração do domínio de um bootcamp, fosse criado seus atributos e métodos.
+
+> O arquivo para a execução deste desafio se encontra na pasta [learn-java/src](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/TQI_Kotlin/learn-java/src/), sendo o arquivo [ObjectProgramming](./learn-java/src/ObjectProgramming.java) aquele que basicamente roda a aplicação e os pacotes dentro da pasta [exercises/oop](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/TQI_Kotlin/learn-java/src/exercises/oop/) as classes gerada para a conclusão do desafio.
+
+Foi utilizado as bases da Programação Orientada a Objeto como a `abstração`, para a criação da classe _Content_ onde haviam várias semelhanças entre as classes **Course** e **Mentoring** e utilizando o `encapsulamento` nessas classes para a utilização adequada de seus atributos, e a `herança` para herdar os métodos de _Content_ para **Course** e **Mentoring** e o `polimorfismo` para realizar um upcast dessas duas classes para _Content_, sendo possível armazena-las em uma mesmo lista, como demonstrado na classe Dev e na classe Bootcamp.
+
 ---
 
 **[Retornar para página anterior](../README.md)**
