@@ -1,7 +1,7 @@
-import edu.brunodemedeiros.exercises.Loops;
+import exercises.syntax.Loops;
 
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
     }
 

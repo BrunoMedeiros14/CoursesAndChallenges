@@ -1,4 +1,4 @@
-package edu.brunodemedeiros.collection.list;
+package exercises.collection.list;
 
 import java.util.ArrayList;
 import java.util.Collections;

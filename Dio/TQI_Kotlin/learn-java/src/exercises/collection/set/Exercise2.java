@@ -1,4 +1,4 @@
-package edu.brunodemedeiros.collection.set;
+package exercises.collection.set;
 
 import java.util.Comparator;
 import java.util.LinkedHashSet;

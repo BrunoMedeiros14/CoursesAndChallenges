@@ -1,4 +1,4 @@
-package edu.brunodemedeiros.exercises;
+package exercises.syntax;
 
 import java.util.Locale;
 import java.util.Random;

@@ -1,4 +1,4 @@
-package edu.brunodemedeiros.collection.map;
+package exercises.collection.map;
 
 import java.util.*;
 

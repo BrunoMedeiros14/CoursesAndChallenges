@@ -1,4 +1,4 @@
-package edu.brunodemedeiros.exercises;
+package exercises.syntax;
 
 public class Sobrecarga {
   public static void main(String[] args) {
