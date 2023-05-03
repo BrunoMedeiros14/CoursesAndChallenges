@@ -137,6 +137,8 @@ No desafio final do módulo de java, para fixar o conhecimento de toda a matéri
 
 Foi utilizado as bases da Programação Orientada a Objeto como a `abstração`, para a criação da classe _Content_ onde haviam várias semelhanças entre as classes **Course** e **Mentoring** e utilizando o `encapsulamento` nessas classes para a utilização adequada de seus atributos, e a `herança` para herdar os métodos de _Content_ para **Course** e **Mentoring** e o `polimorfismo` para realizar um upcast dessas duas classes para _Content_, sendo possível armazena-las em uma mesmo lista, como demonstrado na classe Dev e na classe Bootcamp.
 
+- [link do desafio](https://github.com/cami-la/desafio-poo-dio)
+
 ---
 
 **[Retornar para página anterior](../README.md)**
