@@ -145,9 +145,13 @@ Foi utilizado as bases da Programação Orientada a Objeto como a `abstração`,
 
 vararg é como se estivesse utilizando o spread operator.
 var é mutavel e val não é mutável
-Usando String? faz a string poder ser nula.
+Usando String? faz a string poder ser nula. Normalmente utilizado com o elvis operator **?:** que se o elemento for nulo, retorna um valor que está na frente.
+
+Função do **.apply** é como se fosse um constructor externo.
 
 Usando o .let em frente ao Objeto definimos um escopo para executar algo no qual o objeto atrás do let é mencionado com o **it**.
+
+Sendo que a diferença pro .run é que ao não precisa de referenciar o objeto principal com o it.
 
 ---
 
