@@ -141,6 +141,14 @@ Foi utilizado as bases da Programação Orientada a Objeto como a `abstração`,
 
 ---
 
+## Kotlin
+
+vararg é como se estivesse utilizando o spread operator.
+var é mutavel e val não é mutável
+Usando String? faz a string poder ser nula
+
+---
+
 **[Retornar para página anterior](../README.md)**
 <strong> | <a href="#top">Volte para o topo 🔝</a> </strong>
 
