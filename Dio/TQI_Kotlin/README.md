@@ -154,6 +154,9 @@ Usando o .let em frente ao Objeto definimos um escopo para executar algo no qual
 Sendo que a diferença pro .run é que ao não precisa de referenciar o objeto principal com o it.
 
 Utiliza-se o infix pra criar mini funções na qual vai retornar o elemento com um elemento posterior como entrada.
+O método **operator** funciona similar, mas deve-se ser aprofundado o estudo nele.
+
+Também tem as maravilhosas high-order functions.
 
 ---
 
