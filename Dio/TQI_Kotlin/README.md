@@ -158,6 +158,10 @@ O método **operator** funciona similar, mas deve-se ser aprofundado o estudo ne
 
 Também tem as maravilhosas high-order functions.
 
+**Extension function** inclúi métodos na classe.
+
+Até o objeto null pode ser extendido com a **extension function**, exemplo dado usando a sobrescrita do método tostring.
+
 ---
 
 **[Retornar para página anterior](../README.md)**
