@@ -162,6 +162,8 @@ Também tem as maravilhosas high-order functions.
 
 Até o objeto null pode ser extendido com a **extension function**, exemplo dado usando a sobrescrita do método tostring.
 
+Todas as _exceptions_ derivam da **Throwable**.
+
 ---
 
 **[Retornar para página anterior](../README.md)**
