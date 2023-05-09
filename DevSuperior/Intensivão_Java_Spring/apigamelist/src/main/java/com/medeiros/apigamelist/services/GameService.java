@@ -3,6 +3,7 @@ package com.medeiros.apigamelist.services;
 import com.medeiros.apigamelist.dto.GameDTO;
 import com.medeiros.apigamelist.dto.GameMinDTO;
 import com.medeiros.apigamelist.entities.Game;
+import com.medeiros.apigamelist.projection.GameMinProjection;
 import com.medeiros.apigamelist.repositories.GameRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,6 +30,14 @@ public class GameService {
       .stream()
       .map(obj -> new GameMinDTO(obj))
       .toList();
+
+    return dto;
+  }
+
+  @Transactional(readOnly = true)
+  public List<GameMinDTO> findByList(Long listId) {
+    List<GameMinProjection> result = gameRepository.searchByList(listId);
+    List<GameMinDTO> dto = result.stream().map(GameMinDTO::new).toList();
 
     return dto;
   }
