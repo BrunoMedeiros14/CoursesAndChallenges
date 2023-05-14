@@ -1,6 +1,8 @@
 # Intensivão Java Spring
 
-Nesse intensivão de uma semana foi aprendido a estruturar uma api rest utilizando o framework spring no java, estruturando o projeto conforme o padrão de camadas, de maneira que seja fácil sua escalabilidade e sendo possível ver como é estruturado um projeto grande.
+Nesse intensivão de uma semana do [devSuperior](https://github.com/devsuperior/) foi aprendido a estruturar uma api rest utilizando o framework spring no java, estruturando o projeto conforme o padrão de camadas, de maneira que seja fácil sua escalabilidade e sendo possível ver como é estruturado um projeto grande.
+
+Nesse projeto foi possível entender como criar uma API utilizando o spring boot 3, como configurar e utilizar IDE para a programação com o java, foi apresentado um início de utilização de docker e deploy no Railway.
 
 ## Estrutura de classes
 
@@ -43,9 +45,23 @@ Quando os parâmetros recebidos pelo constructor não tem o mesmo nome que ele v
 O uso dos 2 métodos, se definem em diferenciar se haverá uma **OPERAÇÃO IDEMPOTENTE**, sendo que se utiliza **PUT** quando a operação for salva uma ou várias vezes e retornar o mesmo resultado, como a de salvar um endereço.
 se cada vez que chamar uma operação, ela retornar um resultado diferente, deve-se utilizar o método **POST**, por isso que foi utilizado ele na operação de atualizar a lista.
 
-<!--
+## Como executar
 
+Pré-requisitos: Java 17
+
+Pasta do projeto: [apigamelist](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/DevSuperior/Intensiv%C3%A3o_Java_Spring/apigamelist/)
+Seed para o SQL: [seed Sql](./seed_pg_sql.sql)
+
+```bash
+# após clonar este repositório, executar o projeto com o comando:
+./mvnw spring-boot:run
 ```
+
+No arquivo [postman endpoints](./Postman_endpoints.json) contem o json para abrir no postman com todos os endpoints gerado por este projeto.
+
+### Variáveis de ambiente para deploy
+
+```bash
 APP_PROFILE
 DB_URL (Formato -> jdbc:postgresql://host:porta/nomedabase)
 DB_USERNAME
@@ -53,10 +69,19 @@ DB_PASSWORD
 CORS_ORIGINS
 ```
 
-query bolado:
+### Query utilizado para a atualização da lista
 
+```bash
 SELECT TB_BELONGING .\*, TB_GAME.TITLE FROM TB_BELONGING
 INNER JOIN TB_GAME ON TB_GAME.ID = TB_BELONGING.GAME_ID
 WHERE LIST_ID=2
 ORDER BY POSITION
--->
+```
+
+## Desenvolvido por
+
+[<img width="100px" src="https://avatars.githubusercontent.com/u/100999610" />](https://github.com/BrunoMedeiros14 'Perfil no GitHub (BrunoMedeiros)')
+
+**[Retornar para página anterior](../README.md)**
+
+<p align="center">By <strong><a href="https://github.com/BrunoMedeiros14">Bruno Medeiros</a></strong>.</p>
