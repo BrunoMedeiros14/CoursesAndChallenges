@@ -6,11 +6,11 @@ Nesse projeto foi possível entender como criar uma API utilizando o spring boot
 
 ## Estrutura de classes
 
-![Diagrama de classes](./assets/Diagrama_de_classe.png)
+[<img width="700px" src="./assets/Diagrama_de_classe.png" />](./assets/Diagrama_de_classe.png 'Diagrama de classes')
 
 ## Estrutura de construção
 
-![Estrutura](./assets/Padr%C3%A3o_de_camadas.png)
+[<img width="700px" src="./assets/Padr%C3%A3o_de_camadas.png" />](./assets/Padr%C3%A3o_de_camadas.png 'Estrutura')
 
 ## Tecnologias utilizadas
 

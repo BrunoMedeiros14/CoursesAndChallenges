@@ -1,8 +1,8 @@
 # Cursos feitos com o DevSuperior
 
-|  #  | Curso                  |                             Link                             |
-| :-: | :--------------------- | :----------------------------------------------------------: |
-|  1  | Intensivão Java Spring | [Curso Java Spring](./Intensiv%C3%A3o_Java_Spring/README.md) |
+|  #  | Curso                  |                          Link                          |
+| :-: | :--------------------- | :----------------------------------------------------: |
+|  1  | Intensivão Java Spring | [Curso Java Spring](./Intensivo_Java_Spring/README.md) |
 
 **[Retornar para página anterior](../README.md)**
 
