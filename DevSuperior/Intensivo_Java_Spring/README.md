@@ -49,7 +49,7 @@ se cada vez que chamar uma operação, ela retornar um resultado diferente, deve
 
 Pré-requisitos: Java 17
 
-Pasta do projeto: [apigamelist](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/DevSuperior/Intensiv%C3%A3o_Java_Spring/apigamelist/)
+Pasta do projeto: [apigamelist](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/DevSuperior/Intensivo_Java_Spring/apigamelist/)
 Seed para o SQL: [seed Sql](./seed_pg_sql.sql)
 
 ```bash
