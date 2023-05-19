@@ -166,6 +166,47 @@ Todas as _exceptions_ derivam da **Throwable**.
 
 ---
 
+## Sql
+
+No banco de dados relacional todos os dados são único, se for necessário repetir, deve-se criar outra tabela para inserir os dados repetidos.
+
+### Comandos básicos
+
+- CREATE TABLE: criar tabela
+- INSERT INTO: inserir dados tabela
+- SELECT: visualiza elementos na tabela
+- UPDATE .. SET: atualiza valor na tabela
+- WHERE: cláusula condicional
+- DELETE: deleta valor no banco de dados
+- ORDER BY: ordena dados
+  - DESC -> ordena em ordem decrescente
+- GROUP BY: agrupa dados conforme coluna indicada, usado com **COUNT** pra mostrar quantos elementos tem cada informação única
+- ALTER TABLE: altera dados de uma tabela
+  - ADD: define dados
+- DROP TABLE: apaga tabela
+- DROP DATABASE: apaga database
+- AS: cria um apelido para tabela em query grande
+- JOIN: seleciona query com outra tabela através de fk_id, podendo usar mais de um **JOIN** por vez
+  - ON: define a coluna que é para comparar a fk
+- INNER JOIN: o **JOIN** por padrão é representado como este, pois ele oculta todos os valores que estiverem nulos
+
+Exemplos:
+
+```sql
+INNER JOIN: SELECT * FROM pessoas JOIN cursos pessoas.fk_cursos = cursos.id_cursos
+```
+
+### Uso em terminal
+
+No terminal, sempre precisa de colocar o ";" no final do comando, se não fica pulando a linha infinitamente sem fazer o comando.
+
+**show databases**: mostra os banco de dados disponíveis
+
+**use '_database_'**: seleciona o db para trabalhar
+show tables: mostra as tabelas disponíveis
+
+---
+
 ## Desenvolvido por
 
 [<img width="100px" src="https://avatars.githubusercontent.com/u/100999610" />](https://github.com/BrunoMedeiros14 'Perfil no GitHub (BrunoMedeiros)')
