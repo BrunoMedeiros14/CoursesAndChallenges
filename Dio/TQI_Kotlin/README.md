@@ -80,6 +80,17 @@ Preview:
 
 ## Java
 
+O uso do static faz com que o atributo seja executado uma única vez.
+
+Pode-se utilizar o spread operator em método no Java e configurar um código para executar sempre que o objeto é criado:
+
+```java
+class Exemplo{
+  {System.out.printf("Exemplo criado.");} // será executado sempre que a classe for instanciada
+  public static void (String... string){} // uso do spread
+}
+```
+
 Fato observado é que para usar string sem precisar de concatenar, só usar o printf:
 
 ```java
