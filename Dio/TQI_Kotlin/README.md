@@ -200,6 +200,7 @@ No banco de dados relacional todos os dados são único, se for necessário repe
 - JOIN: seleciona query com outra tabela através de fk_id, podendo usar mais de um **JOIN** por vez
   - ON: define a coluna que é para comparar a fk
 - INNER JOIN: o **JOIN** por padrão é representado como este, pois ele oculta todos os valores que estiverem nulos
+- OUTER JOIN: tendo que definir **RIGHT** ou **LEFT**, esse método define o lado que pode conter valores não nulos (sem relacionamento) em um query usando o JOIN.
 
 Exemplos:
 
