@@ -219,6 +219,14 @@ show tables: mostra as tabelas disponíveis
 
 ---
 
+## Gradle e gradlew
+
+O gradlew é o gradle compactado como o maven wrapper, sendo possível mover o arquivo para outras pastas de trabalho sem precisar de sua instalação, garantindo que todas as compilações com ele sejam idênticas.
+
+Tendo como um grande diferencial por ser escrito em formato semelhante ao kotlin, sendo mais fácil de manusear-lo que o maven.
+
+---
+
 ## Desenvolvido por
 
 [<img width="100px" src="https://avatars.githubusercontent.com/u/100999610" />](https://github.com/BrunoMedeiros14 'Perfil no GitHub (BrunoMedeiros)')
