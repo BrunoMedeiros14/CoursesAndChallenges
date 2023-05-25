@@ -225,6 +225,20 @@ O gradlew é o gradle compactado como o maven wrapper, sendo possível mover o a
 
 Tendo como um grande diferencial por ser escrito em formato semelhante ao kotlin, sendo mais fácil de manusear-lo que o maven.
 
+As tasks são importadas através de plugin, como o exemplo da task run que está dentro do plugin application. Sendo que se ele for utilizado, deve-se definir qual é a classe principal do projeto que vai ser executada por ele, podendo definir também o applicationName e executableDir.
+
+Também é possível trabalhar com múltiplos módulos no gradle implementando dentro de cada submódulo na suas dependencias.
+
+--console=plain ou -q (tira o log do gradle que fica mostrando a porcentagem)
+
+Usando o doLast ou doFirst pode-se modificar as tasks existentes no gradle.
+
+Usando o **dependsOn** (também pode ser um array) roda uma task configurada antes de rodar a task atual e usando o **finalizedBy**, roda a task solicitada após terminar a execução atual.
+
+Com o mustRunAfter a task atual sempre sera executada após a task indicada.
+
+Com task type, pode utilizar tipos como **Delete**, **Copy**, **Zip** para cumprir tarefas com uma task.
+
 ---
 
 ## Desenvolvido por
