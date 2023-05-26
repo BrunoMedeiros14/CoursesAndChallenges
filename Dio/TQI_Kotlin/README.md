@@ -219,6 +219,24 @@ show tables: mostra as tabelas disponíveis
 
 ---
 
+## JUnit
+
+Esse é uma das principais bibliotecas para realizar testes do Java.
+
+Para a realização de testes no Java, sempre precisa de manter os arquivos de testes dentro da pasta **test** como boas práticas, mantendo sempre os testes separado do projeto base na pasta **main**.
+
+Todos os métodos que vão realizar testes unitários devem utilizar o decorator **@Test** e retornam valores vazios, sendo que o nome do método deve descrever o teste que este realizará.
+
+Dentro do corpo dos métodos, pode-se utilizar métodos derivados da classe **Assertions**, como o **.assertEquals** e o **.assertTrue** e até **.assertArrayEquals** que pode comparar Arrays.
+
+Normalmente, para não precisar de escrever _Assertions_ em todos os testes, é realizada a importação **estática** desse método, sendo possível omitir o nome da classe.
+
+Usando o decorator **@BeforeAll** e **@AfterAll**, pode-se configurar tarefas para preparar e limpar rastros dos testes realizados. Tendo também o **@AfterEach** e **@BeforeEach** que executa o método indicado antes e após cada método da classe.
+
+Também tem possivilidade de ver se uma excessão foi lançada e também escolher qual a ordem de testes a serem utilizadas.
+
+---
+
 ## Gradle e gradlew
 
 O gradlew é o gradle compactado como o maven wrapper, sendo possível mover o arquivo para outras pastas de trabalho sem precisar de sua instalação, garantindo que todas as compilações com ele sejam idênticas.
