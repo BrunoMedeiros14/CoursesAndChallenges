@@ -7,4 +7,8 @@ data class User(
 	var age: Int,
 	var gender: Gender,
 	var formations: MutableSet<Formation>
-)
+){
+	override fun toString(): String {
+		return "$name:{age=$age, gender=$gender}"
+	}
+}

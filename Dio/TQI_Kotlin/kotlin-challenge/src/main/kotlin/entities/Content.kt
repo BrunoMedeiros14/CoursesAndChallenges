@@ -7,4 +7,8 @@ data class Content(
 	val durationInMinutes: Int,
 	val description: String,
 	val level: Difficulty
-)
+){
+	override fun toString(): String {
+		return "$name:{durationInMinutes=$durationInMinutes, description='$description', level=$level}"
+	}
+}
