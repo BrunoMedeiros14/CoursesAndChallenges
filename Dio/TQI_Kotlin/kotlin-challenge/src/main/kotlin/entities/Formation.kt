@@ -2,9 +2,9 @@ package entities
 
 data class Formation(
 	val name: String,
-	val contents: MutableSet<Content>,
-	val usersSubscribed: MutableSet<User>
 ) {
+	private val contents: MutableSet<Content> = mutableSetOf<Content>()
+	private val usersSubscribed: MutableSet<User> = mutableSetOf<User>()
 	fun getTotalTime() = contents.map { content -> content.durationInMinutes }.reduce { acc, duration -> acc + duration }
 
 	fun enrollUser(user: User): Boolean {
@@ -12,6 +12,9 @@ data class Formation(
 		user.formations.add(this)
 		return true
 	}
+
+	fun addContent(content: Content): Boolean = this.contents.add(content)
+	fun addContent(contents: Set<Content>): Boolean = this.contents.addAll(contents)
 
 	override fun toString(): String {
 		var str = "$name: \n contents:"
