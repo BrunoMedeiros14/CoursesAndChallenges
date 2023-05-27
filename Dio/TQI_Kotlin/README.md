@@ -175,6 +175,21 @@ Até o objeto null pode ser extendido com a **extension function**, exemplo dado
 
 Todas as _exceptions_ derivam da **Throwable**.
 
+### Desafio Kotlin
+
+No desafio final do módulo de Kotlin, para fixar o conhecimento de toda a matéria aprendida durante o curso e também desenvolver o conceito de **POO**, foi proposto a criação de um programa conforme a proposta abaixo.
+
+> **A [DIO](https://web.dio.me) possui `Formacoes` incríveis que têm como objetivo oferecer um conjunto de `ConteudosEducacionais` voltados para uma stack tecnológica específica, preparando profissionais de TI para o mercado de trabalho. `Formacoes` possuem algumas características importantes, como `nome`, `nivel` e seus respectivos `conteudosEducacionais`. Além disso, tais experiências educacionais têm um comportamento relevante ao nosso domínio, definido pela capacidade de `matricular` um ou mais `Alunos`.**
+
+E o arquivo para a execução deste desafio se encontra na pasta [kotlin-challenge/src/main/kotlin](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/TQI_Kotlin/kotlin-challenge/src/main/kotlin), sendo o arquivo [Main.kt](./kotlin-challenge/src/main/kotlin/Main.kt) aquele que basicamente roda a aplicação e os pacotes relacionado a esta.
+
+Para a elaboração da solução, foi criado um diagrama de classes conforme a proposta:
+[<img width="700px" src="./kotlin-challenge/assets/DiagramaDeClasses.png" />](./kotlin-challenge/assets/DiagramaDeClasses.png 'Diagrama de classes')
+
+De forma que além de praticar o kotlin, também foi possível praticar o uso de diagrama de classes.
+
+- [link do desafio](https://github.com/digitalinnovationone/aprenda-kotlin-com-exemplos-lab 'repositório do desafio')
+
 ---
 
 ## Sql
