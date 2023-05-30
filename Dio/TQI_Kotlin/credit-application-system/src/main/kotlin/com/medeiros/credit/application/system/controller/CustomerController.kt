@@ -5,6 +5,7 @@ import com.medeiros.credit.application.system.dto.CustomerToUpdateDto
 import com.medeiros.credit.application.system.dto.CustomerViewDto
 import com.medeiros.credit.application.system.entity.Customer
 import com.medeiros.credit.application.system.service.impl.CustomerService
+import jakarta.validation.Valid
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
@@ -22,7 +23,7 @@ class CustomerController(
 		})
 
 	@PostMapping
-	fun saveCustomer(@RequestBody customerDto: CustomerDto): ResponseEntity<String> =
+	fun saveCustomer(@RequestBody @Valid customerDto: CustomerDto): ResponseEntity<String> =
 		ResponseEntity.status(HttpStatus.CREATED)
 			.body("Customer ${customerService.save(customerDto.toEntity()).firstName} salvo com sucesso.")
 
@@ -38,7 +39,7 @@ class CustomerController(
 	@PatchMapping("/{id}")
 	fun updateCustomer(
 		@PathVariable id: Long,
-		@RequestBody customerToUpdateDto: CustomerToUpdateDto
+		@RequestBody @Valid customerToUpdateDto: CustomerToUpdateDto
 	): ResponseEntity<CustomerViewDto> {
 		val customer: Customer = customerService.findById(id)
 		val updatedCustomer: Customer = customerToUpdateDto.toEntity(customer)
