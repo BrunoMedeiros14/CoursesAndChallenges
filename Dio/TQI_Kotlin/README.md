@@ -70,7 +70,9 @@ Sendo assim, dentro da pasta **Desafio Docker** contém um docker compose junto 
 
 Para executar o docker compose, basta ter o docker e docker compose intalado no computador e executar o comando abaixo no diretório do docker arquivo **docker-compose.yml**.
 
-    docker compose up
+```bash
+docker compose up
+```
 
 Preview:
 
@@ -271,6 +273,34 @@ Usando o **dependsOn** (também pode ser um array) roda uma task configurada ant
 Com o mustRunAfter a task atual sempre sera executada após a task indicada.
 
 Com task type, pode utilizar tipos como **Delete**, **Copy**, **Zip** para cumprir tarefas com uma task.
+
+---
+
+## Padrões de Projetos na Prática
+
+Os padrões de projetos, como relatado no livro de Design Pattern (criado pelo Gang of Four) descreve métodos, dos quais, pode-se fazer um codigo com soluções consolidads para problemas recorrentes no desenvolvimento/manutenção de software POO.
+
+Na aula foi explicado que há patterns divididos nos seguintes tópicos:
+
+- Padrões Criacionais: Abstract Factory, Builder, Factory Method, Prototype, Singleton.
+
+- Padrões Comportamentais: Chain of Responsibility, Iterator, Observer, Strategy, Template Method.
+
+- Padrões Estruturais: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy.
+
+Sendo que o **singleton** tem base em criar uma única instância de classe de maneira estática, gerando uma forma de recuperá-la.
+
+O **strategy**, simplifica a variação de um algorítimo pra um problema, como o relatado no curso que foi gerada várias classes que contém **override** de métodos voltados para um fim específico.
+
+E o **facade** traz uma interface que reduz a complexidade nas integrações com subsistema.
+
+### Desafio de código
+
+Neste desafio de código foi proposto a utilização de design patterns em algum projeto, podendo utilizar projetos já feito na plataforma.
+
+Dessa maneiro eu aponto o API feito no decorrer do curso de **criação de API Rest com Kotlin** que se encontra na pasta deste repositório [credit-applicatoin-system](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/TQI_Kotlin/credit-application-system/) que ao utilizar o Spring Boot para sua criação consequentemente foi utilizado o _**Strategy**_ para injetar no spring o Serviçe uasndo a decoration **@Autowired** e utilizando o _**Singleton**_ para a construção do **Service**. Sendo assim, estamos acoplando um Service (Singleton) no Spring através de um Strategy.
+
+Por fim é utilizado o pattern _**Facade**_ no controller, para que de forma simples e coesa seja possível a criação de um API Rest.
 
 ---
 
