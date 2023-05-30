@@ -3,11 +3,14 @@ package com.medeiros.credit.application.system.service.impl
 import com.medeiros.credit.application.system.entity.Credit
 import com.medeiros.credit.application.system.repositories.CreditRepository
 import com.medeiros.credit.application.system.service.ICreditService
+import org.springframework.stereotype.Service
 import java.util.*
 
+@Service
 class CreditService(
 	private val creditRepository: CreditRepository, private val customerService: CustomerService
 ) : ICreditService {
+
 	override fun save(credit: Credit): Credit {
 		credit.apply {
 			customer = this.customer?.id?.let { customerService.findById(it) }
