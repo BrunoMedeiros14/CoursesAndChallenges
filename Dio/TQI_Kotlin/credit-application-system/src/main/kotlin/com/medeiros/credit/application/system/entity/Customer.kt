@@ -11,17 +11,17 @@ class Customer(
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	val id: Long? = null,
 	@Column(nullable = false)
-	var firstName: String,
+	var firstName: String = "",
 	@Column(nullable = false)
-	var lastName: String,
+	var lastName: String = "",
 	@Column(nullable = false, unique = true)
-	val cpf: String,
+	val cpf: String = "",
 	@Column(nullable = false, unique = true)
-	var email: String,
+	var email: String = "",
 	@Column(nullable = false)
-	var income: BigDecimal,
+	var income: BigDecimal = BigDecimal.ZERO,
 	@Column(nullable = false)
-	var password: String,
+	var password: String = "",
 	@Embedded
 	@Column(nullable = false)
 	var address: Address = Address(),
