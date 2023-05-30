@@ -304,6 +304,18 @@ Por fim é utilizado o pattern _**Facade**_ no controller, para que de forma sim
 
 ---
 
+## Documentando e testando API - Kotlin
+
+Foi ensinado a criar testes unitários e também a criar documentação através do **springdoc**.
+
+### Desafio de testes
+
+Neste desafio de código foi proposto a inserção de uma documentação no projeto [credit-applicatoin-system](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/TQI_Kotlin/credit-application-system/ 'projeto credit-applicatoin-system'), junto da insersão de testes unitários para um código com maior eficiência. Junto da proposta, teve várias aulas explicando como que funciona os testes unitários e explicando também como integrar a documentação com Swagger, na qual foi inclementada no projeto.
+
+Sendo assim o projeto finalizado se encontra [aqui](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/TQI_Kotlin/credit-application-system/ 'projeto credit-applicatoin-system').
+
+---
+
 ## Desenvolvido por
 
 [<img width="100px" src="https://avatars.githubusercontent.com/u/100999610" />](https://github.com/BrunoMedeiros14 'Perfil no GitHub (BrunoMedeiros)')
