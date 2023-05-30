@@ -294,7 +294,7 @@ O **strategy**, simplifica a variação de um algorítimo pra um problema, como 
 
 E o **facade** traz uma interface que reduz a complexidade nas integrações com subsistema.
 
-### Desafio de código
+### Desafio de patterns
 
 Neste desafio de código foi proposto a utilização de design patterns em algum projeto, podendo utilizar projetos já feito na plataforma.
 
