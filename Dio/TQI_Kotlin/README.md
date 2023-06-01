@@ -236,6 +236,18 @@ show tables: mostra as tabelas disponíveis
 
 ---
 
+## JPA / Hibernate
+
+O JDBC (Java Database Connectivity) é um conjunto de classes que geram uma API para realizar uma conexão com qualquer banco de dados relacional. De maneira que ele não tem os objetos suficientes para realizar a conexão de maneira completa, precisando de instalar driver adicional no qual vai realizar uma interpletação dos comandos no Java para o banco de dados.
+
+No entanto, o uso do JDBC gera uma dificuldade na comunicação com o banco de dados, sendo de uma maneira muito engessada e verbosa, precisando de usar mais comandos em SQL que no Java nativo.
+
+Para resolver esse problema, teve o surgimento em várias linguagens de programação framework ORM (Object Relational Mapper) no qual serviria de uma API para o banco de dados de maneira mais dinâmica, transformando um objeto/ classe diretamente em um item do banco de dados, tornando mais fácil a utilização do banco de dados. Com isso teve a chegada do **Hibernate** que posteriormente viria a fazer parte do **Jpa** no Java, gerando facilidades como a de retornar diretamente um objeto de uma pesquisa no banco de dados, ao invés de um **ResultSet**.
+
+(...)
+
+---
+
 ## JUnit
 
 Esse é uma das principais bibliotecas para realizar testes do Java.
