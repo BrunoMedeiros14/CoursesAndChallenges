@@ -250,6 +250,12 @@ Os decorators presente nas classes que se transformam em ORM através do JPA, s�
 
 É recomendado para que toda operação feita através do JPA seja feita com o modo **Transaction** ativado para uma maior segurança da conexão com o banco de dados, e também deve-se comitar após a operação feita no banco.
 
+Inicia e termina um modo transacional para que se algum dado feite dentro do código der erro, toda a transação vai ser cancelada, evitando de fazer uma transação de dados incompleta.
+
+A utilização do hibernate colabora com a insenção de necessidade de sempre que mudar de banco de dados precisar de fazer uma migration.
+
+Com a utilização do framework **Spring** não é necessário fazer o mapeamento do banco de dados no **persistence.xml**, podendo utilizar somente a configuração do spring.
+
 ---
 
 ## JUnit
