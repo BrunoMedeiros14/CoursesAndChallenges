@@ -244,7 +244,11 @@ No entanto, o uso do JDBC gera uma dificuldade na comunicação com o banco de d
 
 Para resolver esse problema, teve o surgimento em várias linguagens de programação framework ORM (Object Relational Mapper) no qual serviria de uma API para o banco de dados de maneira mais dinâmica, transformando um objeto/ classe diretamente em um item do banco de dados, tornando mais fácil a utilização do banco de dados. Com isso teve a chegada do **Hibernate** que posteriormente viria a fazer parte do **Jpa** no Java, gerando facilidades como a de retornar diretamente um objeto de uma pesquisa no banco de dados, ao invés de um **ResultSet**.
 
-(...)
+Para resolver a possível utilização do Jpa, deve-se criar um arquivo **persistence.xml** na pasta META-INF em **resources** para que esse arquivo possa mapear as propriedades da conexão com o servidor, sendo que cada uma conexão é configurada dentro de um arquivo persistence-unit.
+
+Os decorators presente nas classes que se transformam em ORM através do JPA, são os mesmos que são utilizado normalmente pelo spring, pois estes são derivados de biblioteca do JPA em si.
+
+É recomendado para que toda operação feita através do JPA seja feita com o modo **Transaction** ativado para uma maior segurança da conexão com o banco de dados, e também deve-se comitar após a operação feita no banco.
 
 ---
 
