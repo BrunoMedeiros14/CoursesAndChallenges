@@ -334,7 +334,9 @@ Foi ensinado a criar testes unitários e também a criar documentação através
 
 Neste desafio de código foi proposto a inserção de uma documentação no projeto [credit-applicatoin-system](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/TQI_Kotlin/credit-application-system/ 'projeto credit-applicatoin-system'), junto da insersão de testes unitários para um código com maior eficiência. Junto da proposta, teve várias aulas explicando como que funciona os testes unitários e explicando também como integrar a documentação com Swagger, na qual foi inclementada no projeto.
 
-Sendo assim o projeto finalizado se encontra [aqui](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/TQI_Kotlin/credit-application-system/ 'projeto credit-applicatoin-system').
+O projeto final, foi baseado no repositório [credit-application-system](https://github.com/cami-la/credit-application-system 'Repositório base'), desenvolvido pela [cami-la](https://github.com/cami-la 'Desenvolvedora'). No qual, se utilizou o Spring com a linguagem Kotlin e gerenciador de projeto Gradle.
+
+O meu projeto finalizado se encontra [aqui](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/TQI_Kotlin/credit-application-system/ 'projeto credit-applicatoin-system'), e sua documentação [aqui](./credit-application-system/README.md 'Documentação Credit-application-system').
 
 ---
 
