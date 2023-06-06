@@ -240,11 +240,19 @@ show tables: mostra as tabelas disponíveis
 
 O JDBC (Java Database Connectivity) é um conjunto de classes que geram uma API para realizar uma conexão com qualquer banco de dados relacional. De maneira que ele não tem os objetos suficientes para realizar a conexão de maneira completa, precisando de instalar driver adicional no qual vai realizar uma interpletação dos comandos no Java para o banco de dados.
 
+No prepare statement do JDBC, tem os métodos execute, executeQuery e executeUpdate que tem a finalidade de:
+
+> **execute** -> executa qualquer tipo de _SQL_.
+>
+> **executeQuery** -> executa _SELECT_.
+>
+> **executeUpdate** -> usado para executar _alteração_ no banco de dados.
+
 No entanto, o uso do JDBC gera uma dificuldade na comunicação com o banco de dados, sendo de uma maneira muito engessada e verbosa, precisando de usar mais comandos em SQL que no Java nativo.
 
 Para resolver esse problema, teve o surgimento em várias linguagens de programação framework ORM (Object Relational Mapper) no qual serviria de uma API para o banco de dados de maneira mais dinâmica, transformando um objeto/ classe diretamente em um item do banco de dados, tornando mais fácil a utilização do banco de dados. Com isso teve a chegada do **Hibernate** que posteriormente viria a fazer parte do **Jpa** no Java, gerando facilidades como a de retornar diretamente um objeto de uma pesquisa no banco de dados, ao invés de um **ResultSet**.
 
-Para resolver a possível utilização do Jpa, deve-se criar um arquivo **persistence.xml** na pasta META-INF em **resources** para que esse arquivo possa mapear as propriedades da conexão com o servidor, sendo que cada uma conexão é configurada dentro de um arquivo persistence-unit.
+Para resolver a possível utilização do Jpa, deve-se criar um arquivo **persistence.xml** na pasta META-INF em **resources** para que esse arquivo possa mapear as propriedades da conexão com o servidor, sendo que cada uma conexão é configurada dentro de um arquivo _persistence-unit_, contendo dentro os atributos da _url_ de conexão com o banco de dados, _usuário_, _senha_, _driver_ e _classes_ que serão mapeadas.
 
 Os decorators presente nas classes que se transformam em ORM através do JPA, são os mesmos que são utilizado normalmente pelo spring, pois estes são derivados de biblioteca do JPA em si.
 
@@ -255,6 +263,12 @@ Inicia e termina um modo transacional para que se algum dado feite dentro do có
 A utilização do hibernate colabora com a insenção de necessidade de sempre que mudar de banco de dados precisar de fazer uma migration.
 
 Com a utilização do framework **Spring** não é necessário fazer o mapeamento do banco de dados no **persistence.xml**, podendo utilizar somente a configuração do spring.
+
+No do **fetch** no JPA, pode-se separar entre **eager** ou **lazy**, quando é utilizado o eager a entidade mapeada sempre será carregada na aplicação, mesmo que nunca for utilizada, enquanto o método lazy só vai carregar a classe na aplicação quando for utilizar-la.
+
+Com explicação em outro curso, consegui entender que o JPA é basicamente uma interface, sem método aplicada, sendo necessário a implementação do hibernate para seu funcionamento.
+
+E também o jpa é configurado no
 
 ---
 
