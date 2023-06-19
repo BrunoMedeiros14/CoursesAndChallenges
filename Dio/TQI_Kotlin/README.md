@@ -105,16 +105,16 @@ System.out.printf("\nTexto %.2f\n", variável);
 ?visibilidade ?tipo ?modificador retorno nome (?parâmetros?) ?exceções corpo
 ```
 
-|  #  | Função                       |
-| :-: | :--------------------------- |
-|  V  | public, protected ou private |
-|  M  | concreto ou abstrato         |
-|  V  | static ou final              |
-|  R  | tipo de dado ou "void"       |
-|  N  | nome                         |
-|  P  | parâmetros que pode receber  |
-|  E  | exceções que pode lançar     |
-|  C  | Corpo do código              |
+|  #  | Função                                   |
+| :-: | :--------------------------------------- |
+|  V  | **public**, **protected** ou **private** |
+|  T  | **concret** ou **abstract**              |
+|  M  | **static** ou **final**                  |
+|  R  | tipo de dado ou "**void**"               |
+|  N  | nome                                     |
+|  P  | parâmetros que pode receber              |
+|  E  | exceções que pode lançar                 |
+|  C  | Corpo do código                          |
 
 ### Sobrecarga de método
 
