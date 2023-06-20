@@ -2,10 +2,11 @@
 
 Nesse repositório será concentrado todos os projetos de cursos e alguns desafios encontrado na internet, facilitando um acompanhamento da minha evolução.
 
-| Plataforma                   |                Link dos cursos                |
-| :--------------------------- | :-------------------------------------------: |
-| Dio (Digital Innovation One) |         [Cursos DIO](./Dio/README.md)         |
-| DevSuperior (Nelio Alves)    | [Cursos DevSuperior](./DevSuperior/README.md) |
+| Plataforma                         |                  Link dos cursos                  |
+| :--------------------------------- | :-----------------------------------------------: |
+| Dio (Digital Innovation One)       |           [Cursos DIO](./Dio/README.md)           |
+| DevSuperior (Nelio Alves)          |   [Cursos DevSuperior](./DevSuperior/README.md)   |
+| Curso em vídeo (Gustavo Guanabara) | [Cursos Curso em vídeo](./CursoEmVideo/README.md) |
 
 <p>
 <strong>
