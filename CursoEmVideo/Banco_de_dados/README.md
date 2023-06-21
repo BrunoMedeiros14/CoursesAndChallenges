@@ -19,3 +19,23 @@ default collate utf8_general_ci;
 ```
 
 Na definição de um banco de dados, pode-se utilizar várias `constraints`, como o **NOT NULL** para definir que um valor não pode ser nulo, o **date** para definir que o valor deve ser uma data, ao definir varchar(**x**), precisa de colocar o valor máximo aceito por dado na tabela no lugar de **x**, pode-se declarar **enum**, e **default** para quando o valor não for preenchido, e na declaração de decimal(**x,y**), no lugar de **x** é marcado quantas casas totais teram o valor e no lugar de **y** é marcado quantas dessas casas ficaram após a vírgula.
+
+Na alteração de tabela é utilizado o comando `ALTER TABLE` é possivel alterar tabela, acompanhando o comando `ADD COLUMN` ou `DROP COLUMN`, no caso de querer adicionar coluna após alguma em específico, basta usar o comando `AFTER` e o nome da coluna ou usando o comando `FIRST`. Para realizar modificação nas colunas se usa o comando `MODIFY COLUMN`, sendo que para alterar o nome da coluna, é necessário usar o comando `CHANGE`.
+
+Para alterar o nome da tabela o comando necessário é o `RENAME TO`.
+
+---
+
+## Tipos de comandos
+
+Os comandos `SQL` são divididos em:
+
+**DDL** – Data Definition Language
+**DQL** – Data Query Language
+**DML** – Data Manipulation Language
+**DCL** – Data Control Language
+**TCL** – Transaction Control Language
+
+Sendo o `ddl`, os comandos que realizam definição na estrutura do banco de dados, como os que criam tabelas e database;
+
+O `dml`, os comandos que manipulam dados;
