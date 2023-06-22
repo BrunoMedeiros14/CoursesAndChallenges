@@ -24,6 +24,10 @@ Na alteração de tabela é utilizado o comando `ALTER TABLE` é possivel altera
 
 Para alterar o nome da tabela o comando necessário é o `RENAME TO`.
 
+Utiliza-se o comando `UPDATE` para atualizar dados em uma tabela, juntamente com o comando `SET` que define o novo valor e sua respectiva coluna e o comando `WHERE` que define o local de comparação para realizar a substituição de dados, para uma segurança é utilizado o comando `LIMIT` com o quantitativo de colunas que podem ser alteradas.
+
+E o comando `DELETE` junto ao comando from para apagar algum dado da tabela especifica. Enquanto o `TRUNCATE` serve para apagar todos os dados de um banco de dados.
+
 ---
 
 ## Tipos de comandos
