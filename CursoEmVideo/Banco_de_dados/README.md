@@ -26,7 +26,11 @@ Para alterar o nome da tabela o comando necessário é o `RENAME TO`.
 
 Utiliza-se o comando `UPDATE` para atualizar dados em uma tabela, juntamente com o comando `SET` que define o novo valor e sua respectiva coluna e o comando `WHERE` que define o local de comparação para realizar a substituição de dados, para uma segurança é utilizado o comando `LIMIT` com o quantitativo de colunas que podem ser alteradas.
 
-E o comando `DELETE` junto ao comando from para apagar algum dado da tabela especifica. Enquanto o `TRUNCATE` serve para apagar todos os dados de um banco de dados.
+E o comando `DELETE` junto ao comando from para apagar algum dado da tabela especifica. Enquanto o `TRUNCATE` serve para apagar todos os dados de uma tabela.
+
+Utiliza-se o comando `SELECT` para fazer uma query buscando dados em tabelas, podendo ordenar por ordem alfabética em coluna determinada com o `ORDER BY` e também mostrar somente os dados das colunas que forem solicitados e também dados condicionais com o comando `WHERE`, sendo que dentro deste comando pode-se utilizar o comando `BETWEEN` e o in quando forem valores específicos, e não um range.
+
+Todos os retornos de um `SELECT` são um resultSet
 
 ---
 
@@ -41,5 +45,7 @@ Os comandos `SQL` são divididos em:
 **TCL** – Transaction Control Language
 
 Sendo o `ddl`, os comandos que realizam definição na estrutura do banco de dados, como os que criam tabelas e database;
+
+O `dql`, os comandos que fazem pesquisa no banco de dados.
 
 O `dml`, os comandos que manipulam dados;
