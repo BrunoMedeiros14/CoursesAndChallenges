@@ -49,3 +49,12 @@ Sendo o `ddl`, os comandos que realizam definição na estrutura do banco de dad
 O `dql`, os comandos que fazem pesquisa no banco de dados.
 
 O `dml`, os comandos que manipulam dados;
+
+## Relacionamento
+
+Para representar um realacionamento de forma visual fazumos um `DER`(Diagrama Entidade Relacionamento) que dentro desse item existe a cardinalidade que pode ser **1** ou **n** sendo que na cardinalidade é sempre representado a maior quantidade possível para um relacionamento onde havendo **n** deve-se utiliza-lo em vez de 0 ou 1.
+
+- Ordem de chaves:
+  - **one-to-one**: se for necessário separar em tabelas diferentes a chave estrangeira deve ficar na tabela da entidade dominante.
+  - **one-to-many**: a chave estrangeira deve ficar na tabela da entidade com cardinalidade 1.
+  - **many-to-many**: cria uma entidade de ligação e faz um relacionamento one-to-many para cada entidade.
