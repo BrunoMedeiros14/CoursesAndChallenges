@@ -99,6 +99,8 @@ Fato observado é que para usar string sem precisar de concatenar, só usar o pr
 System.out.printf("\nTexto %.2f\n", variável);
 ```
 
+Observa se que no uso da API stream, há o método flatmap que é utilizado para descompactar uma lista, de forma que se houver um **Array** dentro anhinhado, é possível fazer com que todos os item dentro do **Array** interno sejam descompactado para um **Array** apenas, tendo sua funcionalidade de certa forma semelhante ao spread operator.
+
 ### Estrutura dos métodos
 
 ```bash
