@@ -30,7 +30,15 @@ E o comando `DELETE` junto ao comando from para apagar algum dado da tabela espe
 
 Utiliza-se o comando `SELECT` para fazer uma query buscando dados em tabelas, podendo ordenar por ordem alfabética em coluna determinada com o `ORDER BY` e também mostrar somente os dados das colunas que forem solicitados e também dados condicionais com o comando `WHERE`, sendo que dentro deste comando pode-se utilizar o comando `BETWEEN` e o in quando forem valores específicos, e não um range. Uma forma de procurar se um dado contém algum valor dentro dele, pode=se usar o `LIKE` incluíndo `%` onde o porcento se refere a qualquer coisa realizando pesquisa com case insensitive e também ignorando acentuação, na utilização de `_` busca dados com a necessidade de ter um caractere existente onde está localizado o item `_`. O uso do `DISTINCT` ignora os dados repetidos. o `COUNT` mostra a quantidade de items vai ser retornada com os parâmetros passados no `SELECT` e também pode-se utilizar o `MAX`, `MIN`, `AVG` e `SUM`. E para fornecer um maior dinamismo é utilizado o `GROUP BY` junto com os comandos citados anteriormente ou o comando `COUNT` para que seja gerada uma tabela nova onde será apresentado os valores agrupados, sendo possível usar o comando `HAVING` para indicar regra para o campo selecionado no `GROUP BY`.
 
-Todos os retornos de um `SELECT` são um resultSet
+Todos os retornos de um `SELECT` são um resultSet.
+
+O comando `AS` é utilizado para dar apelidos a uma tabela para que o **query** fica de um tamanho mais reduzido.
+
+Para mostrar mais de uma tabela em uma `QUERY` é utilizado o comando `JOIN` que por sua vez quando não acompanhado de outro comando é considerado um `INNER JOIN` qual mostra apenas os dados que tem ligação entre as tabelas. Sempre que for utilizar este comando deve-se utilizar o comando `ON` que refere a comparação da chave estrangeira com o id.
+
+No uso do `OUTER JOIN` deve indicar qual o conteúdo que deve ser mostrado mesmo sem ter relacionamento com outra tabela, indica-se a tabela com o comando `LEFT` ou `RIGHT`.
+
+Em realacionamento many-to-many se utiliza o comando `JOIN` aninhado para ligar mais de duas tabelas em conjunto.
 
 ---
 
@@ -58,3 +66,24 @@ Para representar um realacionamento de forma visual fazumos um `DER`(Diagrama En
   - **one-to-one**: se for necessário separar em tabelas diferentes a chave estrangeira deve ficar na tabela da entidade dominante.
   - **one-to-many**: a chave estrangeira deve ficar na tabela da entidade com cardinalidade 1.
   - **many-to-many**: cria uma entidade de ligação e faz um relacionamento one-to-many para cada entidade.
+
+Para gerar uma chave estrangeira deve-se utilizar o comando `ALTER TABLE` junto ao comando `ADD FOREIGN KEY` com o nome da chave estrangeira entre parênteses e depois `REFERENCES` e o nome da tabela junto ao id que se refere.
+
+_**Bizural**_: Para facilitar a criação de relacionamento e definir a cardinalidade, basta inserir alguns valores ficticios e gerar uma possível relação fictícia conforme a imagem abaixo:
+
+[<img width="700px" src="./assets/image.png" />](./assets/image.png 'Estrutura')
+
+## Resumo
+
+Este curso realizado gerou a possibilidade de aprender várias coisas sobre o SQL em si, e também sobre sua construção, de forma que ao utilizar os comandos pode-se saber oque é cada coisa e qual é o seu nome. Mesmo sendo um curso básico foi passado o conhecimento de forma que foi possível o aprendizado de coisas que já haviam sido vistar por mim em outros cursos.
+
+---
+
+## Desenvolvido por
+
+[<img width="100px" src="https://avatars.githubusercontent.com/u/100999610" />](https://github.com/BrunoMedeiros14 'Perfil no GitHub (BrunoMedeiros)')
+
+**[Retornar para página anterior](../README.md)**
+<strong> | <a href="#top">Volte para o topo 🔝</a> </strong>
+
+<p align="center">By <strong><a href="https://github.com/BrunoMedeiros14">Bruno Medeiros</a></strong>.</p>
