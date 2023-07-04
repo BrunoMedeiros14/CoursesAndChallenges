@@ -270,7 +270,7 @@ No do **fetch** no JPA, pode-se separar entre **eager** ou **lazy**, quando é u
 
 Com explicação em outro curso, consegui entender que o JPA é basicamente uma interface, sem método aplicada, sendo necessário a implementação do hibernate para seu funcionamento.
 
-E também o jpa é configurado no
+Na utilização do JPA pode-se criar quando necessário, **Native Query** ou também **JPQL** sendo que o **JPQL** é mais eficiente pois pode tratar o query no banco de dados com objetos, sendo possível usar os atributos do objeto no lugar de ter que por exemplo, saber o número do id das **chaves estrangeiras**.
 
 ---
 
