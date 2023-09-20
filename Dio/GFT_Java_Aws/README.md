@@ -20,6 +20,44 @@ Esse é um pilar que deve ser utilizado com cautela, pois seu uso é facilmente 
 
 Chegando ao último pilar, no qual é responsável por transformar a visibilidade de um objeto, de maneira que eu posso tratar uma classe filha como uma classe pai para que todos os objetos instanciados através de classes que herdam dessa `classe pai` possa ser incluído nessa lista, reforçando aqui o pilar da herança que é uma maneira que torna isso possível e também reforça sua devida implementação que se por exemplo uma classe filha não for compatível totalmente com a classe pai, essa lista tem alta probabilidade de gerar uma exceção.
 
+### Desafio POO
+
+Nesse desafio foi proposta uma diagramação em UML do que seria a classe Iphone com interfaces para implementar o **Reprodutor Musicial**, **Aparelho Telefônico** e o **Navegador de Internet**.
+
+```mermaid
+classDiagram
+      ReprodutorMusical <|-- Iphone
+      Telefone <|-- Iphone
+      NavegadirInternet <|-- Iphone
+
+      class Iphone {
+          - model: String
+          - anoFabricacao: Int
+          - Color: String
+      }
+
+      class ReprodutorMusical {
+          <<interface>>
+          +tocar(): void
+          +pausar(): void
+          +selecionarMusica(): void
+      }
+
+      class Telefone {
+          <<interface>>
+          + ligar(): void
+          + atender(): void
+          + iniciarCorrerioVoz(): void
+      }
+
+      class NavegadirInternet {
+          <<interface>>
+          + exibirPagina(): void
+          + adicionarNovaAba(): void
+          + atualizarPagina(): void
+      }
+```
+
 ---
 
 ## Desenvolvido por
