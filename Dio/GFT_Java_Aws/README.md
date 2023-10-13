@@ -1,6 +1,6 @@
 # BootCamp Java com AWS
 
-<!-- Nesse bootcamp foi apresentado a introdução ao **Docker** e como é o seu funcionamento, a sintaxe básica do **Java** e como utilizar sendo utilizada uma pilha de exercícios para fixar a matéria ensinada. -->
+Nesse bootcamp foi possível reforçar meu conhecimento na linguagem Java e também conceitos de **SQL**/ **Docker**.
 
 ## Pilares do POO
 
