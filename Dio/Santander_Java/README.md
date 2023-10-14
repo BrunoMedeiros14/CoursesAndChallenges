@@ -20,6 +20,48 @@ O desafio de [Controle de Fluxo](https://github.com/digitalinnovationone/trilha-
 
 ---
 
+### Desafio POO
+
+Nesse desafio foi proposta uma diagramação em UML do que seria a classe Iphone com interfaces para implementar o **Reprodutor Musicial**, **Aparelho Telefônico** e o **Navegador de Internet**.
+
+```mermaid
+classDiagram
+      ReprodutorMusical <|-- Iphone
+      Telefone <|-- Iphone
+      NavegadorInternet <|-- Iphone
+
+      class Iphone {
+          - model: String
+          - anoFabricacao: Int
+          - Color: String
+      }
+
+      class ReprodutorMusical {
+          <<interface>>
+          +tocar(): void
+          +pausar(): void
+          +selecionarMusica(): void
+      }
+
+      class Telefone {
+          <<interface>>
+          + ligar(): void
+          + atender(): void
+          + iniciarCorreioVoz(): void
+      }
+
+      class NavegadorInternet {
+          <<interface>>
+          + exibirPagina(): void
+          + adicionarNovaAba(): void
+          + atualizarPagina(): void
+      }
+```
+
+> Com base no diagrama, foi criado um exemplo de código em java de como seria sua implementação na pasta [desafio-poo](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/TQI_Kotlin/desafio-poo/src/), onde o arquivo principal é o [Iphone.java](./desafio-poo/src/Iphone.java).
+
+---
+
 ## Desenvolvido por
 
 [<img width="100px" src="https://avatars.githubusercontent.com/u/100999610" />](https://github.com/BrunoMedeiros14 'Perfil no GitHub (BrunoMedeiros)')
