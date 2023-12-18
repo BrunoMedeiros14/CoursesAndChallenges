@@ -5,46 +5,51 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
   <title>Trilha de CSS - DIO</title>
 </head>
 
 <body>
-  <header class="banner">
-    <div class="banner-content">
-      <div class="logo">
+  <header class="banner py-4 text-center text-white">
+    <div class="banner-content m-auto w-60">
+      <div class="logo mb-1 p-1 rounded-circle">
         <img src="assets/images/logo.png" title="Logotipo Trilha de CSS DIO" alt="Logotipo Trilha de CSS DIO">
       </div>
-      <h1>Trilha de CSS da DIO</h1>
-      <p>A nova Trilha de CSS da DIO está disponível. Acesse já e aprenda do zero como desenvolver sites profissionais.
+      <h1 class="text-upper mb-1 fw-8 fs-4">Trilha de CSS da DIO</h1>
+      <p class="mb-1 fs-2">
+        A nova Trilha de CSS da DIO está disponível. Acesse já e aprenda do zero como desenvolver sites profissionais.
       </p>
-      <button>Quero me inscrever</button>
+      <button id="header-button"
+        class="bg-transparent text-upper border px-3 py-2 fs-1 color-primary bg-primary-gradient border-large">
+        Quero me inscrever
+      </button>
     </div>
   </header>
   <main>
-    <section id="course-content">
-      <h2>O que vou aprender?</h2>
-      <p>
+    <section id="course-content" class="py-4 text-center text-white">
+      <h2 class="text-upper mb-2 fw-7 fs-3 color-primary">O que vou aprender?</h2>
+      <p class="mb-2">
         Temos 3 módulos recheados de conteúdos do básico ao avançado para que você aprenda a
         desenvolver sites profissionais utilizando somente HTML e CSS: sem nenhuma biblioteca ou framework a mais.
       </p>
       <div class="modules-list">
-        <div class="module">
+        <div class="module mb-2 p-2 w-60 m-auto border border-primary">
           <span>Módulo 01:</span> primeiros passos com CSS
         </div>
-        <div class="module">
+        <div class="module mb-2 p-2 w-60 m-auto border border-primary">
           <span>Módulo 02:</span> trabalhando com layouts no CSS
         </div>
-        <div class="module">
+        <div class="module mb-2 p-2 w-60 m-auto border border-primary">
           <span>Módulo 03:</span> refinando os estilos CSS das nossas páginas
         </div>
       </div>
     </section>
-    <section id="transform-world">
-      <p>TRANSFORME O MUNDO COM A GENTE</p>
+    <section id="transform-world" class="py-6 flex align-items-center border-y border-primary">
+      <p class="text-white ms-6 fw-8 fs-3 text-lower">TRANSFORME O MUNDO COM A GENTE</p>
     </section>
-    <section id="professional-challenges">
-      <h2>Evolua e encare novos desafios profissionais</h2>
-      <img src="assets/images/professional-challenges.png" title="Homem lendo depoimentos em um tablet"
+    <section id="professional-challenges" class="py-4 text-center w-60 m-auto text-white">
+      <h2 class="text-upper mb-2 fw-7 fs-3 color-primary">Evolua e encare novos desafios profissionais</h2>
+      <img class="w-auto" src="assets/images/professional-challenges.png" title="Homem lendo depoimentos em um tablet"
         alt="Homem lendo depoimentos em um tablet">
       <p>
         Junte-se ao nosso ecossistema e transforme o mundo com a gente! Todos os dias dezenas de empresas
@@ -54,10 +59,10 @@
       </p>
     </section>
   </main>
-  <footer>
+  <footer class="py-4 text-center text-white">
     <img class="dio-logo" src="assets/images/dio-logo.png" title="Logotipo DIO com o texto make the change"
       alt="Logotipo DIO com o texto make the change">
-    <p>Acesse <a href="https://dio.me">dio.me</a> e se cadastre agora</p>
+    <p>Acesse <a href="https://dio.me" class="text-white">dio.me</a> e se cadastre agora</p>
   </footer>
 </body>
 

@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+:root {
+  --primary: #31A8DD;
+}
+
+* {
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.w-60 {
+  width: 60vw;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.rounded-circle {
+  border-radius: 100%;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 1.5rem;
+}
+
+.p-1 {
+  padding: .5rem;
+}
+
+.p-2 {
+  padding: 1rem;
+}
+
+.py-2 {
+  padding-block: 1rem;
+}
+
+.py-4 {
+  padding-block: 4rem;
+}
+
+.py-6 {
+  padding-block: 12rem;
+}
+
+.ms-6 {
+  margin-left: 12rem;
+}
+
+.px-2 {
+  padding-inline: 1rem;
+}
+
+.px-3 {
+  padding-inline: 2rem;
+}
+
+.fw-8 {
+  font-weight: 900;
+}
+
+.fw-7 {
+  font-weight: 700;
+}
+
+.fs-1 {
+  font-size: 1rem;
+}
+
+.fs-2 {
+  font-size: 1.25rem;
+}
+
+.fs-3 {
+  font-size: 2rem;
+}
+
+.fs-4 {
+  font-size: 2.5rem;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.color-primary {
+  color: var(--primary);
+}
+
+.border {
+  border-style: solid;
+  border-width: .1rem;
+}
+
+.border-y {
+  border-block-style: solid;
+  border-width: .1rem;
+}
+
+.border-large {
+  border-width: .2rem;
+}
+
+.border-primary {
+  border-color: var(--primary);
+}
+
+.border-white {
+  border-color: #fff;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.text-upper {
+  text-transform: uppercase;
+}
+
+.text-lower {
+  text-transform: lowercase;
+}
+
+.bg-primary-gradient {
+  border-image: linear-gradient(#3BA1CD, #1572B7);
+}
+
+.logo {
+  background-color: #00000045;
+  width: min-content;
+  margin-inline: auto;
+}
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, .6), rgba(99, 208, 255, 0.2), rgba(0, 0, 0, .6)), url(../images/banner.png);
+}
+
+.banner-content {
+  width: 28rem;
+}
+
+.w-auto {
+  width: 100%;
+}
+
+.banner-content>h1 {
+  -webkit-background-clip: text;
+  color: transparent;
+  background: -webkit-linear-gradient(#5fbae1, #1472B7);
+  background-clip: text;
+}
+
+#header-button {
+  font-weight: bold;
+  letter-spacing: 4px;
+  border-image-slice: 10;
+  transition: background-color ease-in-out .3s;
+}
+
+#header-button:hover {
+  cursor: pointer;
+  background-color: var(--primary);
+  border-color: #fff;
+  color: currentColor;
+  border-image: none;
+}
+
+.modules-list>.module {
+  background-color: #252525;
+  border-radius: 100px;
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+.modules-list>.module>span {
+  color: var(--primary);
+}
+
+#transform-world {
+  height: 560px;
+  background-size: cover;
+  background-image: url(../images/woman-code.png);
+  background-attachment: fixed;
+}
+
+#transform-world>p {
+  text-shadow: 3px 3px var(--primary);
+  max-width: 15rem;
+}
+
+footer {
+  background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+}
