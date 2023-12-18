@@ -1,10 +1,11 @@
 # Cursos feitos na DIO
 
-|  #  | Curso                           |                        Link                        |
-| :-: | :------------------------------ | :------------------------------------------------: |
-|  1  | BootCamp TQI Kotlin             |     [Curso TQI Kotlin](./TQI_Kotlin/README.md)     |
-|  2  | BootCamp GFT Java com Cloud AWS | [Curso GFT Java com AWS](./GFT_Java_Aws/README.md) |
-|  3  | BootCamp Santander Java | [Curso Santander Java](./Santander_Java/README.md) |
+|  #  | Curso                                   |                        Link                        |
+| :-: | :-------------------------------------- | :------------------------------------------------: |
+|  1  | BootCamp TQI Kotlin                     |     [Curso TQI Kotlin](./TQI_Kotlin/README.md)     |
+|  2  | BootCamp GFT Java com Cloud AWS         | [Curso GFT Java com AWS](./GFT_Java_Aws/README.md) |
+|  3  | BootCamp Santander Java                 | [Curso Santander Java](./Santander_Java/README.md) |
+|  4  | BootCamp Desenvolvimento de Jogos Ifood |  [Curso Santander Java](./Ifood_Games/README.md)   |
 
 **[Retornar para página anterior](../README.md)**
 
