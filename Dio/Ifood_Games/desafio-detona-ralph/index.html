@@ -13,18 +13,18 @@
   <header>
     <div>
       <h2>Your Score:</h2>
-      <h3>0</h3>
+      <h3 id="playerScore">0</h3>
     </div>
     <div>
       <h2>Your Score:</h2>
-      <h3>0</h3>
+      <h3 id="timeLeft">0</h3>
     </div>
     <div class="life-div">
       <img src="./src/images/player.png" alt="player lifes">
-      <h1>x3</h1>
+      <h1>x<span id="playerLifes">3</span></h1>
     </div>
   </header>
-  <main>
+  <main id="gameBoard">
     <div>
       <div class="ralphBox" id="1"></div>
       <div class="ralphBox" id="2"></div>
@@ -41,6 +41,7 @@
       <div class="ralphBox" id="9"></div>
     </div>
   </main>
+  <script type="module" src="./src/scripts/engine.js"></script>
 </body>
 
 </html>
