@@ -6,11 +6,11 @@ Nesse projeto foi possível entender como criar uma API utilizando o spring boot
 
 ## Estrutura de classes
 
-[<img width="700px" src="./assets/Diagrama_de_classe.png" />](./assets/Diagrama_de_classe.png 'Diagrama de classes')
+[<img width="700px" src="./assets/Diagrama_de_classe.png" alt="Diagrama das classes"/>](./assets/Diagrama_de_classe.png 'Diagrama de classes')
 
 ## Estrutura de construção
 
-[<img width="700px" src="./assets/Padr%C3%A3o_de_camadas.png" />](./assets/Padr%C3%A3o_de_camadas.png 'Estrutura')
+[<img width="700px" src="./assets/Padr%C3%A3o_de_camadas.png" alt="Estrutura de construção"/>](./assets/Padr%C3%A3o_de_camadas.png 'Estrutura')
 
 ## Tecnologias utilizadas
 
@@ -80,7 +80,7 @@ ORDER BY POSITION
 
 ## Desenvolvido por
 
-[<img width="100px" src="https://avatars.githubusercontent.com/u/100999610" />](https://github.com/BrunoMedeiros14 'Perfil no GitHub (BrunoMedeiros)')
+[<img width="100px" src="https://avatars.githubusercontent.com/u/100999610" alt="My Profile Image"/>](https://github.com/BrunoMedeiros14 'Perfil no GitHub (BrunoMedeiros)')
 
 **[Retornar para página anterior](../README.md)**
 

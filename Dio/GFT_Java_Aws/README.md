@@ -62,7 +62,7 @@ classDiagram
 
 ## Desenvolvido por
 
-[<img width="100px" src="https://avatars.githubusercontent.com/u/100999610" />](https://github.com/BrunoMedeiros14 'Perfil no GitHub (BrunoMedeiros)')
+[<img width="100px" src="https://avatars.githubusercontent.com/u/100999610" alt="My Profile Image"/>](https://github.com/BrunoMedeiros14 'Perfil no GitHub (BrunoMedeiros)')
 
 **[Retornar para página anterior](../README.md)**
 <strong> | <a href="#top">Volte para o topo 🔝</a> </strong>
