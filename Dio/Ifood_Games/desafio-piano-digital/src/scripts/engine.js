@@ -8,12 +8,16 @@ let audio = new Audio('src/tunes/a.wav');
 const playTune = key => {
   audio.src = `src/tunes/${key}.wav`;
   audio.play();
+};
 
+const clickDown = key => {
   const clickedKey = document.querySelector(`[data-key="${key}"]`);
   clickedKey.classList.add('active');
-  setTimeout(() => {
-    clickedKey.classList.remove('active');
-  }, 150);
+};
+
+const clickUp = key => {
+  const clickedKey = document.querySelector(`[data-key="${key}"]`);
+  clickedKey.classList.remove('active');
 };
 
 pianoKeys.forEach(key => {
@@ -24,6 +28,13 @@ pianoKeys.forEach(key => {
 document.addEventListener('keydown', e => {
   if (mapedKeys.includes(e.key)) {
     playTune(e.key);
+    clickDown(e.key);
+  }
+});
+
+document.addEventListener('keyup', e => {
+  if (mapedKeys.includes(e.key)) {
+    clickUp(e.key);
   }
 });
 
