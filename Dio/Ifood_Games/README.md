@@ -42,6 +42,16 @@ Imagem do projeto finalizado:
 
 ![image](./desafio-memory-game/src/images/game-screenshot.jpeg 'Imagem game finalizado')
 
+### Desafio Piano Digital
+
+O desafio de criar `Um piano digital` propõe a criação de um piano digital que é possível emitir som ao clicar em determinadas teclas do teclado, ou também em evento gerado pelo click do mouse nas teclas do piano.
+
+> O projeto pode se encontra na pasta [desafio-piano-digital](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/Ifood_Games/desafio-piano-digital/), com seu arquivo de entrada sendo o [desafio-piano-digital/index.html](./desafio-piano-digital/index.html).
+
+Imagem do projeto finalizado:
+
+![image](./desafio-piano-digital/src/images/game-screenshot.jpeg 'Imagem game finalizado')
+
 ---
 
 ## Desenvolvido por
