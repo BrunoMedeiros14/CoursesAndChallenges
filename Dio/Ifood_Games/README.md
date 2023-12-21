@@ -12,7 +12,7 @@ O página que foi proposta a criação do desafio tem seu design [nesse link](ht
 
 Para tirar um maior proveito doque foi aprendido e daquilo que eu já tinha conhecimento, eu procurei a completar realizar o projeto seguindo o padrão utility first.
 
-> O projeto pode se encontra na pasta [desafio-landing-page](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/Ifood_Games/controle-desafio-landing-page/), com sue arquivo de entrada sendo o [desafio-landing-page/index.html](./desafio-landing-page/index.html).
+> O projeto pode se encontra na pasta [desafio-landing-page](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/Ifood_Games/controle-desafio-landing-page/), com seu arquivo de entrada sendo o [desafio-landing-page/index.html](./desafio-landing-page/index.html).
 
 Imagem do projeto finalizado:
 
@@ -20,17 +20,27 @@ Imagem do projeto finalizado:
 
 ### Desafio Detona Ralph
 
-O desafio de [Um jogo do detona Ralph](https://github.com/digitalinnovationone/trilha-css-desafio-01) propõe a criação de um jogo simples que é focado em fazer 9 botões em uma página que ao iniciar a página deve aparecer transportar o Ralph para cada um desses botões, tendo que clicar no que o Ralph aparecer, antes que ele desapareça.
+O desafio de criar `Um jogo do detona Ralph` propõe a criação de um jogo simples que é focado em fazer 9 botões em uma página que ao iniciar a página deve aparecer transportar o Ralph para cada um desses botões, tendo que clicar no que o Ralph aparecer, antes que ele desapareça.
 
 - Ao clicar no Ralph, deve aumentar a pontuação do jogador;
 - Ao finalizar a contagem, deve-se aparecer um Alert informando a pontuação final do jogador;
 - Como extra, foi adicionada a feature de remover vida do jogador quando o clique for em um botão que não contém o Ralph.
 
-> O projeto pode se encontra na pasta [desafio-detona-ralph](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/Ifood_Games/controle-desafio-detona-ralph/), com sue arquivo de entrada sendo o [desafio-detona-ralph/index.html](./desafio-detona-ralph/index.html).
+> O projeto pode se encontra na pasta [desafio-detona-ralph](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/Ifood_Games/desafio-detona-ralph/), com seu arquivo de entrada sendo o [desafio-detona-ralph/index.html](./desafio-detona-ralph/index.html).
 
 Imagem do projeto finalizado:
 
 ![image](./desafio-detona-ralph/src/images/game-screenshot.png 'Imagem game finalizado')
+
+### Desafio Memory Game
+
+O desafio de criar `Um jogo da memória com sticker` propõe a criação de um jogo focado em distribuir stickers pela tela com sua imagem tampada para fazer um jogo da memória.
+
+> O projeto pode se encontra na pasta [desafio-memory-game](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/Ifood_Games/desafio-memory-game/), com seu arquivo de entrada sendo o [desafio-memory-game/index.html](./desafio-memory-game/index.html).
+
+Imagem do projeto finalizado:
+
+![image](./desafio-memory-game/src/images/game-screenshot.jpeg 'Imagem game finalizado')
 
 ---
 
