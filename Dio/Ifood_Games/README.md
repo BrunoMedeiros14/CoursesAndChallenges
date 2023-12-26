@@ -52,6 +52,18 @@ Imagem do projeto finalizado:
 
 ![image](./desafio-piano-digital/src/images/game-screenshot.jpeg 'Imagem game finalizado')
 
+### Desafio Yu-gi-oh
+
+O desafio de criar `Um jogo do Yu-gi-oh` propõe a criação de um jogo de cartas contendo uma regra sililar ao jogo de pedra, papel e tesoura. Sendo possível adiquirir bastante conhecimento sobre o DOM para o manuseio dos itens do HTML com CSS e JS.
+
+Para ter um desafio extra e exercitar um conhecimento adiquirido em outros estudos, foi implementando um princípio da **orientação a objetos** nesse projeto.
+
+> O projeto pode se encontra na pasta [desafio-yu-gi-oh](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/Ifood_Games/desafio-yu-gi-oh/), com seu arquivo de entrada sendo o [desafio-yu-gi-oh/index.html](./desafio-yu-gi-oh/index.html).
+
+Imagem do projeto finalizado:
+
+![image](./desafio-yu-gi-oh/src/assets/icons/screenshot.jpeg 'Imagem game finalizado')
+
 ---
 
 ## Desenvolvido por
