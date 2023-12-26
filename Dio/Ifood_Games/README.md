@@ -12,7 +12,7 @@ O página que foi proposta a criação do desafio tem seu design [nesse link](ht
 
 Para tirar um maior proveito doque foi aprendido e daquilo que eu já tinha conhecimento, eu procurei a completar realizar o projeto seguindo o padrão utility first.
 
-> O projeto pode se encontra na pasta [desafio-landing-page](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/Ifood_Games/controle-desafio-landing-page/), com seu arquivo de entrada sendo o [desafio-landing-page/index.html](./desafio-landing-page/index.html).
+> O projeto pode se encontra na pasta [desafio-landing-page](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/Ifood_Games/desafio-landing-page/), com seu arquivo de entrada sendo o [desafio-landing-page/index.html](./desafio-landing-page/index.html).
 
 Imagem do projeto finalizado:
 
@@ -54,7 +54,9 @@ Imagem do projeto finalizado:
 
 ### Desafio Yu-gi-oh
 
-O desafio de criar `Um jogo do Yu-gi-oh` propõe a criação de um jogo de cartas contendo uma regra sililar ao jogo de pedra, papel e tesoura. Sendo possível adiquirir bastante conhecimento sobre o DOM para o manuseio dos itens do HTML com CSS e JS.
+O desafio de criar `Um jogo do Yu-gi-oh` propõe a criação de um jogo de cartas contendo uma regra sililar ao jogo de pedra, papel e tesoura, com os assets sendo fornecido [nesse link](https://github.com/digitalinnovationone/js-yugioh-assets 'link assets'). Sendo possível adiquirir bastante conhecimento sobre o DOM para o manuseio dos itens do HTML com CSS e JS.
+
+O desafio principal se encontra na implementação da lógica com o **js** e na implementação do estilo com o **css**.
 
 Para ter um desafio extra e exercitar um conhecimento adiquirido em outros estudos, foi implementando um princípio da **orientação a objetos** nesse projeto.
 
