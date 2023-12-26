@@ -76,7 +76,7 @@ docker compose up
 
 Preview:
 
-[<img width="400px" src="./Desafio%20Docker/Preview.png" />](./Desafio%20Docker/Preview.png 'Print da página criada no Apache')
+[<img width="400px" src="./Desafio%20Docker/Preview.png" alt="Preview Docker Image"/>](./Desafio%20Docker/Preview.png 'Print da página criada no Apache')
 
 ---
 
@@ -188,7 +188,7 @@ No desafio final do módulo de Kotlin, para fixar o conhecimento de toda a maté
 E o arquivo para a execução deste desafio se encontra na pasta [kotlin-challenge/src/main/kotlin](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/TQI_Kotlin/kotlin-challenge/src/main/kotlin), sendo o arquivo [Main.kt](./kotlin-challenge/src/main/kotlin/Main.kt) aquele que basicamente roda a aplicação e os pacotes relacionado a esta.
 
 Para a elaboração da solução, foi criado um diagrama de classes conforme a proposta:
-[<img width="700px" src="./kotlin-challenge/assets/DiagramaDeClasses.png" />](./kotlin-challenge/assets/DiagramaDeClasses.png 'Diagrama de classes')
+[<img width="700px" src="./kotlin-challenge/assets/DiagramaDeClasses.png" alt="Diagrama das classes"/>](./kotlin-challenge/assets/DiagramaDeClasses.png 'Diagrama de classes')
 
 De forma que além de praticar o kotlin, também foi possível praticar o uso de diagrama de classes.
 
@@ -358,7 +358,7 @@ O meu projeto finalizado se encontra [aqui](https://github.com/BrunoMedeiros14/C
 
 ## Desenvolvido por
 
-[<img width="100px" src="https://avatars.githubusercontent.com/u/100999610" />](https://github.com/BrunoMedeiros14 'Perfil no GitHub (BrunoMedeiros)')
+[<img width="100px" src="https://avatars.githubusercontent.com/u/100999610" alt="My Profile Image"/>](https://github.com/BrunoMedeiros14 'Perfil no GitHub (BrunoMedeiros)')
 
 **[Retornar para página anterior](../README.md)**
 <strong> | <a href="#top">Volte para o topo 🔝</a> </strong>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./src/images/favicon.jpg">
+  <link rel="stylesheet" href="./src/styles/main.css">
+  <title>Detona Ralph</title>
+</head>
+
+<body>
+  <header>
+    <div>
+      <h2>Your Score:</h2>
+      <h3 id="playerScore">0</h3>
+    </div>
+    <div>
+      <h2>Your Score:</h2>
+      <h3 id="timeLeft">0</h3>
+    </div>
+    <div class="life-div">
+      <img src="./src/images/player.png" alt="player lifes">
+      <h1>x<span id="playerLifes">3</span></h1>
+    </div>
+  </header>
+  <main id="gameBoard">
+    <div>
+      <div class="ralphBox" id="1"></div>
+      <div class="ralphBox" id="2"></div>
+      <div class="ralphBox" id="3"></div>
+    </div>
+    <div>
+      <div class="ralphBox" id="4"></div>
+      <div class="ralphBox" id="5"></div>
+      <div class="ralphBox" id="6"></div>
+    </div>
+    <div>
+      <div class="ralphBox" id="7"></div>
+      <div class="ralphBox" id="8"></div>
+      <div class="ralphBox" id="9"></div>
+    </div>
+  </main>
+  <script type="module" src="./src/scripts/engine.js"></script>
+</body>
+
+</html>

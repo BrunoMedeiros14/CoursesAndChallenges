@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/styles/main.css">
+  <link rel="icon" type="image/x-icon" href="./src/assets/favicon/Favicon.ico">
+  <title>Yu-gi-oh Jokenpô</title>
+</head>
+
+<body>
+
+  <video class="background-video" loop autoplay>
+    <source src="./src/assets/video/yugi.mp4" type="video/mp4" />
+  </video>
+
+  <audio id="bg-audio" loop autoplay>
+    <source src="./src/assets/audios/egyptian_duel.mp3" type="audio/mp3" />
+  </audio>
+
+  <div class="game_container">
+
+    <aside class="player_container framed-golden-2">
+      <div class="score_container info_container">
+        Win: 0 | Lose: 0
+      </div>
+      <div class="show-card_container">
+        <img src="./src/assets/icons/card-back.png" alt="">
+      </div>
+      <div class="info-card_container info_container">
+        <div id="cardDescription" class="description">Selecione</div>
+        <div id="cardAttribute" class="attribute">Uma carta</div>
+      </div>
+    </aside>
+
+    <article class="duel_container">
+      <div class="cards_container framed enemy">
+      </div>
+
+      <div class="versus_container">
+        <div class="cards-versus_container">
+          <div class="card-versus_container player">
+            <div class="no-card"></div>
+          </div>
+          <div class="versus-logo">
+            <img src="./src/assets/icons/millenium2.png" alt="">
+          </div>
+          <div class="card-versus_container enemy">
+            <div class="no-card"></div>
+          </div>
+        </div>
+        <div class="replay-button_container">
+        </div>
+      </div>
+
+      <div class="cards_container framed player">
+      </div>
+    </article>
+
+  </div>
+
+  <script type="module" src="./src/scripts/engine.js"></script>
+</body>
+
+</html>
