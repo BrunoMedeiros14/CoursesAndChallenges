@@ -3,3 +3,4 @@
 *.jar
 .idea
 /DevSuperior/Intensivão_Java_Spring/apigamelist/README.txt
+target/

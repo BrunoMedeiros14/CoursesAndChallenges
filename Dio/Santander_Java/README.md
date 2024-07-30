@@ -1,4 +1,4 @@
-# BootCamp TQI Kotlin
+# BootCamp Santander Java
 
 ## Java
 
@@ -59,6 +59,16 @@ classDiagram
 ```
 
 > Com base no diagrama, foi criado um exemplo de código em java de como seria sua implementação na pasta [desafio-poo](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/TQI_Kotlin/desafio-poo/src/), onde o arquivo principal é o [Iphone.java](./desafio-poo/src/Iphone.java).
+
+---
+
+### Desafio Banco Digital
+
+O desafio de [Criação de Banco Digital](https://github.com/falvojr/lab-banco-digital-oo) propõe a criação de um projeto que contém um protótipo de criação de banco digital, utilizando os princípios da orientação a objeto.
+
+A proposta do desafio foi implementar melhorias no código proposto com base no conhecimente adiquirido até o atual momento dos pilares da orientação a objeto e também a implementação do lombok no código.
+
+> O arquivo para a execução deste desafio se encontra na pasta [desafio-banco/src](https://github.com/BrunoMedeiros14/CoursesAndChallenges/tree/main/Dio/Santander_Java/desafio-banco/src/), sendo utilizado o maven com suas configurações concentrada no arquivo [pom.xml](./desafio-banco/pom.xml).
 
 ---
 
